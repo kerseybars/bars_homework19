@@ -1,0 +1,249 @@
+body{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+section{
+    padding-top: 50px;
+}
+
+p{
+    font-family: "Helvetica";
+    font-size: 18pt;
+    color: #272727;
+    text-align: left;
+}
+
+.header{
+    text-align: center;
+    background-color: #B981FF;
+    border-left: 2px solid #4b168a;
+    border-right: 2px solid #4b168a;
+    border-top: 2px solid #4b168a;
+    padding: 25px;
+}
+
+#navBar{
+    background-color: #B981FF;
+    border-left: 2px solid #4b168a;
+    border-right: 2px solid #4b168a;
+    border-bottom: 2px solid #4b168a;
+
+}
+
+.topNav li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-family: "Cinzel", serif;
+    color: #272727; 
+}
+
+.topNav{
+    padding: 10px;
+    font-size: 24pt;
+    text-align: center;
+}
+
+h1{
+    font-size: 64pt;
+    font-family: 'Cinzel', serif;
+    color: #272727;
+}
+
+h2{
+    font-size: 40pt;
+    font-family: 'Cinzel', serif;
+    color: #272727;
+}
+
+h3{
+    font-size: 35pt;
+    font-family: 'Cinzel', serif;
+    color: #272727;
+}
+
+h1, h2 {
+    padding-bottom: 50px;
+}
+
+h4{
+    font-size: 30pt;
+    color: #272727;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+h5{
+    color: #272727;
+    font-family: 'Cinzel', serif;
+    font-size: 20pt;
+}
+#aboutmeSummary{
+    display: inline-block;
+    padding: 25px;
+    border: solid 2px #da138a;
+    background-color: #f15bb5;
+}
+
+#aboutmeSummary p{
+    text-align: left;
+    font-size: 18pt;
+    font-family: Helvetica;
+    color: #18251E;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#aboutmeSummary img{
+    float: right;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+#myuxSkills{
+    background-color: #fee440;
+    border: 2px solid #f7d601;
+    padding-bottom: 50px;
+}
+
+
+#myuxSkills h3{
+    text-align: center;
+}
+
+.mytravelBuddy {
+    display: inline-flex;
+    background-color: #00BBF9;
+    border: 2px solid #0086b3;
+}
+
+
+.mytravelBuddy .card {
+    background-color: #00BBF9;
+    border: 2px solid #00bbf9;  
+}
+
+.mytravelBuddy .card-body{
+    background-color: #00BBF9;
+    border: 2px solid #00bbf9;  
+}
+
+.mytravelBuddy .card-body img{
+    border: 2px solid #00bbf9; 
+}
+
+.Hume {
+    display: inline-flex;
+    background-color: #00F5D4;
+    border: 2px solid #009d8a;
+}
+
+.Hume .card{
+    background-color: #00F5D4;
+    border: 2px solid #00F5D4;
+}
+
+.Hume .card-body{
+    background-color: #00F5D4;
+    border: 2px solid #00F5D4;
+}
+
+.Hume .card-body img{
+    border: 2px solid #00F5D4;
+}
+
+.B4H {
+    display: inline-flex;
+    border: solid 2px #da138a;
+    background-color: #f15bb5;
+}
+
+.B4H .card {
+    background-color: #f15bb5;
+    border: solid 2px #f15bb5;
+}
+
+.B4H .card-body{
+    background-color: #f15bb5;
+    border: solid 2px #f15bb5;
+}
+
+.B4H .card-body img{
+    border: solid 2px #f15bb5; 
+}
+
+
+#moreWork{
+    background-color: #fee440;
+    border: 2px solid #f7d601;
+    padding-bottom: 50px;
+}
+
+.cardContainer {
+    text-align: center;
+}
+
+.card-body{
+    color: #272727;
+}
+
+.card{
+    border: 2px solid  #f7d601;
+}
+
+.card img{
+    width: 100%;
+    border: 2px solid  #f7d601;
+}
+
+.card-body{
+    background-color: #fee440;
+}
+
+.card-text{
+    font-family: Helvetica;
+}
+
+#footer{
+    padding: 25px;
+    border: solid 2px #4b168a;
+    background-color: #B981FF;
+}
+
+.footerNav li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-family: "Cinzel", serif;
+    color: #272727; 
+}
+
+.footerNav{
+    padding: 10px;
+    font-size: 16pt;
+    text-align: center;
+}
+
+#footer h5{
+    text-align: center;
+}
+
+.btn{
+    background-color: white;
+    color: #272727;
+    border: 2px solid black;
+    align-content: center;
+    font-family: Helvetica;
+}
+
+.btn:hover{
+    background-color:#272727;
+    border-color: black;
+    color: white;
+}
+
