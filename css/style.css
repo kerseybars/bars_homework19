@@ -31,13 +31,37 @@ p{
 
 }
 
-.topNav li{
+.topNav {
     list-style-type: none;
     display: inline-block;
     padding-left: 75px;
     padding-right: 75px;
     font-family: "Cinzel", serif;
     color: #272727; 
+}
+
+button{
+    display: inline-block;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+    left: 100px;
+}
+
+
+button {
+    background-color: #B981FF;
+    border: 2px solid #B981FF;
+    display: inline-block;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-family: "Cinzel", serif;
+    color: #272727;  
+}
+
+button:hover{
+    background-color:#4b168a;
+    color: white;
 }
 
 .topNav{
@@ -247,3 +271,41 @@ h5{
     color: white;
 }
 
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: #EB5C69;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .preloader img {
+    transition: all;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #myBtn {
+    display: none; 
+    position: fixed;
+    width: 100px;
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99;
+    border: none; 
+    outline: none; 
+    background-color: black; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px;  
+    font-size: 18px; 
+    font-family: helvetica;
+  }
+  
+  #myBtn:hover {
+    background-color: white;
+    color: black;
+  }
